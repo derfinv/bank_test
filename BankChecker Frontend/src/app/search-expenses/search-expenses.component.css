@@ -1,0 +1,55 @@
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.fixed {
+    text-align: center;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+.mytable {
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+.mytable td{
+    border-bottom:0.1px solid grey;
+    border-top:none;
+}
+.mytable th{
+    border-bottom:1.5px solid grey;
+}
+
+@media (max-width: 500px) {
+    .navbar-brand{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+.search-expense{
+ text-align: left;
+ vertical-align: middle;
+
+
+
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 2fr;
+}
+.button-search{
+  
+}

@@ -1,0 +1,26 @@
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.change:hover {
+    background-color: green;
+}
+
+.riep {
+    display: inline;
+}
+
+.fixed td,
+th {
+    width: 120px;
+    vertical-align: middle;
+    padding: 18px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .navbar-brand{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
